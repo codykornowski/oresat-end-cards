@@ -1,0 +1,23 @@
+Importer Log Report
+Project : plusz-end-card-with-turnstile-mezzanine.PrjPcb
+
+Section : Analyze Document - C:\Users\ckkornowski\Documents\GitHub\oresat-end-cards\plusz-end-card-with-turnstile\plusz-end-card-with-turnstile-mezzanine.brd
+    Analyzing data of C:\Users\ckkornowski\Documents\GitHub\oresat-end-cards\plusz-end-card-with-turnstile\plusz-end-card-with-turnstile-mezzanine.brd
+    Load settings
+    Load layers 175
+    Load board
+    Load Library "oresat-rcl"
+    Load Packages 1
+    Load Library "J-Radiall-R107064070-RF"
+    Load Packages 1
+    Load Library "U-MiniCirc-QBA-07+_Phase-shifter"
+    Load Packages 1
+    Load Library "U-MiniCirc-QCN-XXX+-quad"
+    Load Packages 1
+    Load Library "oresat-flight-marker"
+    Load Packages 1
+    Load Library "monitor-v2-debug"
+    Load Packages 1
+    ERROR: Unhandled typemfgpreviewcolors
+    ERROR: Unhandled typeerrors
+EndSection

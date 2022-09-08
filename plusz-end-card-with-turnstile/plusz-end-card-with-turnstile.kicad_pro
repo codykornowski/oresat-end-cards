@@ -48,7 +48,13 @@
           "min_clearance": 0.508
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "filename": "board_design_settings.json",
@@ -111,8 +117,15 @@
         "min_via_diameter": 0.39999999999999997,
         "use_height_for_length_calcs": true
       },
-      "track_widths": [],
-      "via_dimensions": [],
+      "track_widths": [
+        0.0
+      ],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false,
       "zones_use_no_outline": true
     },
@@ -364,25 +377,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "RF",
-        "nets": [
-          "L1BAND",
-          "L1BAND_0",
-          "L1BAND_180",
-          "L1BAND_270",
-          "L1BAND_90",
-          "LBAND",
-          "LBAND-1/4L",
-          "LBAND-SHORT",
-          "LBAND_0",
-          "LBAND_180",
-          "LBAND_270",
-          "LBAND_90",
-          "UHF",
-          "UHF_0",
-          "UHF_180",
-          "UHF_270",
-          "UHF_90"
-        ],
+        "nets": [],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.38,
@@ -400,9 +395,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "SHUTDOWN",
-        "nets": [
-          "~{SD}"
-        ],
+        "nets": [],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.3,
@@ -422,7 +415,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "plusz-end-card-with-turnstile.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -449,6 +442,15 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "fix_passive_vals": false,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 0,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "${ORESAT_LIBRARIES}/title-blocks/oresat-schematic-title-block.kicad_wks",
     "plot_directory": "",
     "spice_adjust_passive_values": false,
